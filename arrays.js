@@ -11,6 +11,7 @@ function destructivelyAddElementToBeginningOfArray(array, item){
   return array;
 }
 function addElementToEndOfArray(array, item){
+<<<<<<< HEAD
   return [...array, item];
 }
 function destructivelyAddElementToEndOfArray(array, item){
@@ -34,3 +35,10 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
   return array.slice(0, array.length - 1);
 }
+=======
+  var newArray = array;
+  newArray.push(item);
+  return newArray;
+}
+function 
+>>>>>>> f4ea4f605774470bfd8f377847696a4c44f08cad
